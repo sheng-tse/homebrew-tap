@@ -1,25 +1,25 @@
 class ArgonautsCode < Formula
   desc "Orchestrate any mix of coding agents and models, from Claude Code and Codex to open-weight models on your own machine."
   homepage "https://github.com/sheng-tse/argonauts-code"
-  version "0.1.0"
+  version "0.2.0"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/sheng-tse/argonauts-code/releases/download/v0.1.0/argonauts-code-aarch64-apple-darwin.tar.xz"
-      sha256 "3a5d7c5100820068a6a35c14b455b67217762cdfe4ed3dda181b50174e5d7ec2"
+      url "https://github.com/sheng-tse/argonauts-code/releases/download/v0.2.0/argonauts-code-aarch64-apple-darwin.tar.xz"
+      sha256 "c71da1983ff682948053db0635d228f822ec5c8a82ff77a8a5f1bec1911a2bb7"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/sheng-tse/argonauts-code/releases/download/v0.1.0/argonauts-code-x86_64-apple-darwin.tar.xz"
-      sha256 "255f2237dd01478638b72e90284d4ef0fa077e8fb17080a9ab876bfeacd88e7f"
+      url "https://github.com/sheng-tse/argonauts-code/releases/download/v0.2.0/argonauts-code-x86_64-apple-darwin.tar.xz"
+      sha256 "09e62ea41b826779525c1c817cdc7f8897cb51c96c39f922f9707668b8cc1a88"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
-      url "https://github.com/sheng-tse/argonauts-code/releases/download/v0.1.0/argonauts-code-aarch64-unknown-linux-gnu.tar.xz"
-      sha256 "50ef14257ef2ffc6d23b827972ca78ed547b6dd8182b8df4f70079596a4ab955"
+      url "https://github.com/sheng-tse/argonauts-code/releases/download/v0.2.0/argonauts-code-aarch64-unknown-linux-gnu.tar.xz"
+      sha256 "0687d8a187b4f859539a05025ba08f366c941dc3dc1a5ac0d10ce04c700079eb"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/sheng-tse/argonauts-code/releases/download/v0.1.0/argonauts-code-x86_64-unknown-linux-gnu.tar.xz"
-      sha256 "193001627eeb53c54d2143cb8e22944a96dcd46e3f56bca8ff3e2b9cc287a1db"
+      url "https://github.com/sheng-tse/argonauts-code/releases/download/v0.2.0/argonauts-code-x86_64-unknown-linux-gnu.tar.xz"
+      sha256 "a45ef016013f61f68dfd05789eaa1a12d6a6e123c19937ecf776805c61b61edb"
     end
   end
   license "Apache-2.0"
